@@ -1,0 +1,15 @@
+C:\Development\WebAPI\Infraestructure\bin\Debug\net7.0\Infraestructure.deps.json
+C:\Development\WebAPI\Infraestructure\bin\Debug\net7.0\Infraestructure.dll
+C:\Development\WebAPI\Infraestructure\bin\Debug\net7.0\Infraestructure.pdb
+C:\Development\WebAPI\Infraestructure\bin\Debug\net7.0\Domain.dll
+C:\Development\WebAPI\Infraestructure\bin\Debug\net7.0\Domain.pdb
+C:\Development\WebAPI\Infraestructure\obj\Debug\net7.0\Infraestructure.csproj.AssemblyReference.cache
+C:\Development\WebAPI\Infraestructure\obj\Debug\net7.0\Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\WebAPI\Infraestructure\obj\Debug\net7.0\Infraestructure.AssemblyInfoInputs.cache
+C:\Development\WebAPI\Infraestructure\obj\Debug\net7.0\Infraestructure.AssemblyInfo.cs
+C:\Development\WebAPI\Infraestructure\obj\Debug\net7.0\Infraestructure.csproj.CoreCompileInputs.cache
+C:\Development\WebAPI\Infraestructure\obj\Debug\net7.0\Infraestructure.csproj.CopyComplete
+C:\Development\WebAPI\Infraestructure\obj\Debug\net7.0\Infraestructure.dll
+C:\Development\WebAPI\Infraestructure\obj\Debug\net7.0\refint\Infraestructure.dll
+C:\Development\WebAPI\Infraestructure\obj\Debug\net7.0\Infraestructure.pdb
+C:\Development\WebAPI\Infraestructure\obj\Debug\net7.0\ref\Infraestructure.dll
