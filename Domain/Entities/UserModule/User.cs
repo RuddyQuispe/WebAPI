@@ -1,18 +1,21 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Runtime.InteropServices;
 
 namespace Domain.Entities.UserModule;
 
-public class User
+public partial class User
 {
-    [Key]
+    [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
+    [MinLength(8)]
     public string Nickname { get; set; }
     public string Name { get; set; }
+    [EmailAddress(ErrorMessage = "Email no valido")]
     public string Email { get; set; }
-    public string Password { get; set; }
+    [Phone(ErrorMessage = "Nro telefono no valido")]
+    public string Phone { get; set; }
+    public string PasswordHash { get; set; }
+    public string PasswordSalt { get; set; }
     public bool isEnabled { get; set; }
 
     //[ForeignKey(nameof(Role.Id))/*, DeleteBehavior(DeleteBehavior.NoAction)*/]
