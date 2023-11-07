@@ -17,7 +17,5 @@ public partial class User
     public string PasswordHash { get; set; }
     public string PasswordSalt { get; set; }
     public bool isEnabled { get; set; }
-
-    //[ForeignKey(nameof(Role.Id))/*, DeleteBehavior(DeleteBehavior.NoAction)*/]
-    //public ICollection<Role> Roles { get; set; }
+    public short IdRole { get; set; }
 }

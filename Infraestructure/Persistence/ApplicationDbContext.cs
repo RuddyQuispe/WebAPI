@@ -94,7 +94,10 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext
         }
     }
 
+    #region ENTITIES
     public virtual DbSet<User> User { get; set; }
     public virtual DbSet<Role> Role { get; set; }
     public virtual DbSet<Permission> Permission { get; set; }
+    public virtual DbSet<RolePermission> RolePermission { get; set; }
+    #endregion ENTITIES
 }
